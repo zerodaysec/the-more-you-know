@@ -30,12 +30,6 @@
     "categories": ["security", "rss-feed"]
   },
   {
-    "title": "DZone DevOps Zone",
-    "link": "https://dzone.com/devops-tutorials-tools-news/rss",
-    "description": "DZone's DevOps section offers articles, tutorials, and news on DevOps practices.",
-    "categories": ["DevOps", "rss-feed"]
-  },
-  {
     "title": "The New Stack",
     "link": "https://thenewstack.io/feed/",
     "description": "Covers a range of topics including cloud-native technologies and DevOps.",
@@ -54,12 +48,6 @@
     "categories": ["security", "performance", "rss-feed"]
   },
   {
-    "title": "Google Cloud Blog",
-    "link": "https://cloud.google.com/feeds/blog.xml",
-    "description": "Though it's Google's cloud blog, it often features articles that are relevant to the broader cloud and DevOps community.",
-    "categories": ["cloud", "DevOps", "rss-feed"]
-  },
-  {
     "title": "Azure Updates",
     "link": "https://azure.microsoft.com/en-us/updates/feed/",
     "description": "Official updates from Microsoft Azure, including new features and announcements.",
@@ -70,12 +58,6 @@
     "link": "https://devblogs.microsoft.com/devops/feed/",
     "description": "Official Azure DevOps blog from Microsoft, featuring best practices and tutorials.",
     "categories": ["Azure", "DevOps", "rss-feed"]
-  },
-  {
-    "title": "Azure Security and Compliance Blog",
-    "link": "https://techcommunity.microsoft.com/t5/azure-security-and-compliance/bg-p/AzureSecurityBlog",
-    "description": "Focuses on security and compliance topics related to Azure.",
-    "categories": ["Azure", "security", "rss-feed"]
   },
   {
     "title": "Build Azure",
@@ -102,34 +84,10 @@
     "categories": ["Azure", "serverless", "rss-feed"]
   },
   {
-    "title": "Azure Friday",
-    "link": "https://s.ch9.ms/Shows/Azure-Friday/feed",
-    "description": "A video series where Azure experts share tips and tricks about Azure.",
-    "categories": ["Azure", "video", "rss-feed"]
-  },
-  {
-    "title": "Azure Citadel",
-    "link": "https://azurecitadel.com/feed/",
-    "description": "A community blog with tutorials and labs focused on Azure cloud.",
-    "categories": ["Azure", "community", "rss-feed"]
-  },
-  {
     "title": "Azure Tips and Tricks",
     "link": "https://microsoft.github.io/AzureTipsAndTricks/rss.xml",
     "description": "Collection of tips and tricks to help you get the most out of Azure.",
     "categories": ["Azure", "tips", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Blog",
-    "link": "https://cloud.google.com/blog/feed",
-    "description": "Official blog for Google Cloud Platform, featuring news, updates, and best practices.",
-    "categories": ["GCP", "cloud", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Platform - Medium",
-    "link": "https://medium.com/google-cloud/feed",
-    "description": "Google Cloud Platform's Medium blog covers various topics including DevOps, Data Science, and more.",
-    "categories": ["GCP", "DevOps", "rss-feed"]
   },
   {
     "title": "Google Cloud Security Blog",
@@ -138,22 +96,10 @@
     "categories": ["GCP", "security", "rss-feed"]
   },
   {
-    "title": "GCP Podcast",
-    "link": "https://www.gcppodcast.com/post/feed/",
-    "description": "Podcast that covers various Google Cloud Platform topics, including interviews with GCP experts.",
-    "categories": ["GCP", "podcast", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud - TechCrunch",
-    "link": "https://techcrunch.com/tag/google-cloud/feed/",
-    "description": "TechCrunch articles related to Google Cloud Platform.",
-    "categories": ["GCP", "cloud", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Developers - YouTube",
+    "title": "Google Cloud Tech - YouTube",
     "link": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg",
     "description": "YouTube channel for Google Cloud developers, featuring tutorials and best practices.",
-    "categories": ["GCP", "video", "rss-feed"]
+    "categories": ["GCP", "video", "rss-feed", "YouTube"]
   },
   {
     "title": "Google Cloud - Reddit",
@@ -162,21 +108,9 @@
     "categories": ["GCP", "community", "rss-feed"]
   },
   {
-    "title": "Google Cloud Platform - Stack Overflow",
-    "link": "https://stackoverflow.com/questions/tagged/google-cloud-platform/feed",
-    "description": "Stack Overflow questions tagged with Google Cloud Platform, a good place for troubleshooting.",
-    "categories": ["GCP", "community", "rss-feed"]
-  },
-  {
     "title": "Google Cloud - GitHub",
     "link": "https://github.com/GoogleCloudPlatform.atom",
     "description": "GitHub repository for Google Cloud Platform, featuring code samples and projects.",
     "categories": ["GCP", "code", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Architect - Dev.to",
-    "link": "https://dev.to/t/googlecloudarchitect/rss",
-    "description": "Dev.to tag for Google Cloud Architect, featuring articles and tutorials.",
-    "categories": ["GCP", "architecture", "rss-feed"]
   }
 ]
