@@ -1,0 +1,13 @@
+[server]
+port = 8080
+
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "warning"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
