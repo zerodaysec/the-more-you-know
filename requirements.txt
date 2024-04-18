@@ -1,4 +1,4 @@
-altair==5.1.1
+altair==5.3.0
 attrs==23.1.0
 blinker==1.6.2
 cachetools==5.3.1
