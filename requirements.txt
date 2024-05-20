@@ -42,5 +42,5 @@ typing_extensions==4.11.0
 tzdata==2024.1
 tzlocal==4.3.1
 urllib3==2.2.1
-validators==0.22.0
+validators==0.28.1
 zipp==3.17.0
