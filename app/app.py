@@ -4,13 +4,13 @@ import pandas as pd
 
 # Function to load notes from JSON file
 def load_notes():
-    with open('notes.json', 'r') as f:
+    with open('/notes.json', 'r') as f:
         return json.load(f)
 
 # Function to save notes to JSON file
 def save_notes(notes):
-    with open('notes.json', 'w') as f:
-        json.dump(notes, f)
+    with open('/notes.json', 'w') as f:
+        json.dump(notes, f, indent=4)
 
 # Load notes
 notes = load_notes()
@@ -31,6 +31,7 @@ category_icon_map = {
     "video": ":video_camera:",
     "community": ":people_holding_hands:",
     # "code": ":code:",
+    "TEST": ":science:",
     "architecture": ":building_construction:"
 }
 
@@ -38,6 +39,7 @@ category_icon_map = {
 page = st.sidebar.selectbox("Choose a page", ["Home", "Add Entry"])
 
 if page == "Home":
+    notes = load_notes()
     # Sidebar for category selection
     st.sidebar.header("Filter by Categories")
     selected_categories = st.sidebar.multiselect(
@@ -78,6 +80,7 @@ if page == "Home":
             st.markdown(f" - {row['categories']}")
 
 elif page == "Add Entry":
+    notes = load_notes()
     st.header("Add a New Entry")
 
     # Form to add a new entry

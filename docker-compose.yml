@@ -1,0 +1,10 @@
+services:
+  tmyk:
+    image: skynet/tmyk-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8089:8501
+    volumes:
+      - ./app/notes.json:/notes.json
