@@ -1,5 +1,5 @@
 -i https://pypi.org/simple
-altair==5.4.1; python_version >= '3.8'
+altair==5.5.0; python_version >= '3.8'
 attrs==24.2.0; python_version >= '3.7'
 blinker==1.8.2; python_version >= '3.8'
 cachetools==5.5.0; python_version >= '3.7'
