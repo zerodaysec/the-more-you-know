@@ -17,7 +17,7 @@ jobs:
             #OUTPUT=$(shell command or script to extract the part your want)
             echo "MESSAGE=$OUTPUT" >> $GITHUB_ENV
       - name: Post result to PR
-        uses: mshick/add-pr-comment@v1
+        uses: mshick/add-pr-comment@v2
         with:
             message: ${{ env.MESSAGE }}
             repo-token: ${{ secrets.GITHUB_TOKEN }}
