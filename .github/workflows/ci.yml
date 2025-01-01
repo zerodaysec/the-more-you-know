@@ -13,7 +13,7 @@ jobs:
       - name: Lint with pylint
         run: |
             pip install pylint
-            OUTPUT=$(pylint ./src --exit-zero)
+            OUTPUT=$(pylint ./app --exit-zero)
             #OUTPUT=$(shell command or script to extract the part your want)
             echo "MESSAGE=$OUTPUT" >> $GITHUB_ENV
       - name: Post result to PR
