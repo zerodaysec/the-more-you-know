@@ -2,15 +2,18 @@ import streamlit as st
 import json
 import pandas as pd
 
+
 # Function to load notes from JSON file
 def load_notes():
-    with open('/notes.json', 'r') as f:
+    with open("/notes.json", "r") as f:
         return json.load(f)
+
 
 # Function to save notes to JSON file
 def save_notes(notes):
-    with open('/notes.json', 'w') as f:
+    with open("/notes.json", "w") as f:
         json.dump(notes, f, indent=4)
+
 
 # Load notes
 notes = load_notes()
@@ -32,8 +35,13 @@ category_icon_map = {
     "community": ":people_holding_hands:",
     # "code": ":code:",
     "TEST": ":science:",
-    "architecture": ":building_construction:"
+    "architecture": ":building_construction:",
 }
+
+for note in notes:
+    for cat in note["categories"]:
+        if cat.lower() not in category_icon_map:
+            category_icon_map[cat.lower()] = ":question:"
 
 # Page selection
 page = st.sidebar.selectbox("Choose a page", ["Home", "Add Entry"])
@@ -45,16 +53,20 @@ if page == "Home":
     selected_categories = st.sidebar.multiselect(
         "Select categories",
         options=list(category_icon_map.keys()),
-        default=list(category_icon_map.keys())
+        default=list(category_icon_map.keys()),
     )
 
     # Filter notes based on selected categories
-    filtered_notes = [note for note in notes if any(cat in note['categories'] for cat in selected_categories)]
+    filtered_notes = [
+        note
+        for note in notes
+        if any(cat in note["categories"] for cat in selected_categories)
+    ]
 
     # Display filtered notes as tiles (3x wide)
     tiles = []
     for note in filtered_notes:
-        icons = " ".join([category_icon_map.get(cat, "") for cat in note['categories']])
+        icons = " ".join([category_icon_map.get(cat, "") for cat in note["categories"]])
         tile_content = f"### {icons} {note['title']}\n"
         tile_content += f"[{note['link']}]({note['link']})\n"
         tile_content += f"{note['description']}\n"
@@ -73,7 +85,7 @@ if page == "Home":
     # Display filtered notes as a table, each category on its own row
     st.write("### Filtered Notes Table")
     for index, row in df.iterrows():
-        if any(cat in row['categories'] for cat in selected_categories):
+        if any(cat in row["categories"] for cat in selected_categories):
             st.write(f"## {row['title']}")
             st.markdown(f" - {row['link']}")
             st.markdown(f" - {row['description']}")
@@ -103,7 +115,7 @@ elif page == "Add Entry":
                 "title": new_title,
                 "link": new_link,
                 "description": new_description,
-                "categories": selected_categories
+                "categories": selected_categories,
             }
             notes.append(new_entry)
             save_notes(notes)

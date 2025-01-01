@@ -1,140 +1,209 @@
 [
-  {
-    "title": "AWS News Blog",
-    "link": "https://aws.amazon.com/blogs/aws/feed/",
-    "description": "Official blog for Amazon Web Services, providing news, tips, and best practices.",
-    "categories": ["AWS", "cloud", "rss-feed"]
-  },
-  {
-    "title": "AWS DevOps Blog",
-    "link": "https://aws.amazon.com/blogs/devops/feed/",
-    "description": "Official AWS blog focused on DevOps practices, featuring tutorials and best practices.",
-    "categories": ["AWS", "DevOps", "rss-feed"]
-  },
-  {
-    "title": "AWS Security Blog",
-    "link": "https://aws.amazon.com/blogs/security/feed/",
-    "description": "Official AWS blog that focuses on cloud security, identity, and compliance.",
-    "categories": ["AWS", "security", "rss-feed"]
-  },
-  {
-    "title": "InfoWorld Cloud Computing",
-    "link": "https://www.infoworld.com/category/cloud-computing/index.rss",
-    "description": "InfoWorld's cloud computing blog covers a range of cloud topics including AWS.",
-    "categories": ["cloud", "AWS", "rss-feed"]
-  },
-  {
-    "title": "Krebs on Security",
-    "link": "https://krebsonsecurity.com/feed/",
-    "description": "Brian Krebs covers topics related to cybersecurity, including cloud security.",
-    "categories": ["security", "rss-feed"]
-  },
-  {
-    "title": "The New Stack",
-    "link": "https://thenewstack.io/feed/",
-    "description": "Covers a range of topics including cloud-native technologies and DevOps.",
-    "categories": ["cloud", "DevOps", "rss-feed"]
-  },
-  {
-    "title": "TechCrunch Cloud",
-    "link": "https://techcrunch.com/tag/cloud/feed/",
-    "description": "TechCrunch articles related to cloud computing, including AWS news.",
-    "categories": ["cloud", "AWS", "rss-feed"]
-  },
-  {
-    "title": "Cloudflare Blog",
-    "link": "https://blog.cloudflare.com/rss/",
-    "description": "Blog posts related to web performance and security, including cloud security.",
-    "categories": ["security", "performance", "rss-feed"]
-  },
-  {
-    "title": "Azure Updates",
-    "link": "https://azure.microsoft.com/en-us/updates/feed/",
-    "description": "Official updates from Microsoft Azure, including new features and announcements.",
-    "categories": ["Azure", "cloud", "rss-feed"]
-  },
-  {
-    "title": "Azure DevOps Blog",
-    "link": "https://devblogs.microsoft.com/devops/feed/",
-    "description": "Official Azure DevOps blog from Microsoft, featuring best practices and tutorials.",
-    "categories": ["Azure", "DevOps", "rss-feed"]
-  },
-  {
-    "title": "Build Azure",
-    "link": "https://buildazure.com/feed/",
-    "description": "All about the Microsoft Cloud, including Azure and related topics.",
-    "categories": ["Azure", "cloud", "rss-feed"]
-  },
-  {
-    "title": "Thomas Maurer's Azure Blog",
-    "link": "https://www.thomasmaurer.ch/feed/",
-    "description": "Covers a range of Azure topics, from basic to advanced.",
-    "categories": ["Azure", "cloud", "rss-feed"]
-  },
-  {
-    "title": "InfoWorld Microsoft",
-    "link": "https://www.infoworld.com/category/microsoft/index.rss",
-    "description": "InfoWorld's Microsoft section often covers Azure and other cloud-related topics.",
-    "categories": ["Azure", "cloud", "rss-feed"]
-  },
-  {
-    "title": "Serverless360 Blog",
-    "link": "https://www.serverless360.com/blog/feed",
-    "description": "Focuses on Azure Serverless offerings and related architecture and design best practices.",
-    "categories": ["Azure", "serverless", "rss-feed"]
-  },
-  {
-    "title": "Azure Tips and Tricks",
-    "link": "https://microsoft.github.io/AzureTipsAndTricks/rss.xml",
-    "description": "Collection of tips and tricks to help you get the most out of Azure.",
-    "categories": ["Azure", "tips", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Security Blog",
-    "link": "https://cloud.google.com/blog/topics/security/feed",
-    "description": "Focuses on security topics related to Google Cloud Platform.",
-    "categories": ["GCP", "security", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud Tech - YouTube",
-    "link": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg",
-    "description": "YouTube channel for Google Cloud developers, featuring tutorials and best practices.",
-    "categories": ["GCP", "video", "rss-feed", "YouTube"]
-  },
-  {
-    "title": "Google Cloud - Reddit",
-    "link": "https://www.reddit.com/r/googlecloud/.rss",
-    "description": "Reddit community for Google Cloud Platform, featuring discussions, news, and tips.",
-    "categories": ["GCP", "community", "rss-feed"]
-  },
-  {
-    "title": "Google Cloud - GitHub",
-    "link": "https://github.com/GoogleCloudPlatform.atom",
-    "description": "GitHub repository for Google Cloud Platform, featuring code samples and projects.",
-    "categories": ["GCP", "code", "rss-feed"]
-  },
-  {
-    "title": "TEST3",
-    "link": "TEST3",
-    "description": "TEST3",
-    "categories": ["TEST"]
-  },
-  {
-    "title": "TEST33333",
-    "link": "TEST344444",
-    "description": "TEST355555",
-    "categories": ["TEST"]
-  },
-  {
-    "title": "TEST33334",
-    "link": "TEST344444",
-    "description": "TEST355555",
-    "categories": ["TEST"]
-  },
-  {
-    "title": "adsf",
-    "link": "adsf",
-    "description": "adf",
-    "categories": ["TEST"]
-  }
+    {
+        "title": "AWS News Blog",
+        "link": "https://aws.amazon.com/blogs/aws/feed/",
+        "description": "Official blog for Amazon Web Services, providing news, tips, and best practices.",
+        "categories": [
+            "AWS",
+            "cloud",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "AWS DevOps Blog",
+        "link": "https://aws.amazon.com/blogs/devops/feed/",
+        "description": "Official AWS blog focused on DevOps practices, featuring tutorials and best practices.",
+        "categories": [
+            "AWS",
+            "DevOps",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "AWS Security Blog",
+        "link": "https://aws.amazon.com/blogs/security/feed/",
+        "description": "Official AWS blog that focuses on cloud security, identity, and compliance.",
+        "categories": [
+            "AWS",
+            "security",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "InfoWorld Cloud Computing",
+        "link": "https://www.infoworld.com/category/cloud-computing/index.rss",
+        "description": "InfoWorld's cloud computing blog covers a range of cloud topics including AWS.",
+        "categories": [
+            "cloud",
+            "AWS",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Krebs on Security",
+        "link": "https://krebsonsecurity.com/feed/",
+        "description": "Brian Krebs covers topics related to cybersecurity, including cloud security.",
+        "categories": [
+            "security",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "The New Stack",
+        "link": "https://thenewstack.io/feed/",
+        "description": "Covers a range of topics including cloud-native technologies and DevOps.",
+        "categories": [
+            "cloud",
+            "DevOps",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "TechCrunch Cloud",
+        "link": "https://techcrunch.com/tag/cloud/feed/",
+        "description": "TechCrunch articles related to cloud computing, including AWS news.",
+        "categories": [
+            "cloud",
+            "AWS",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Cloudflare Blog",
+        "link": "https://blog.cloudflare.com/rss/",
+        "description": "Blog posts related to web performance and security, including cloud security.",
+        "categories": [
+            "security",
+            "performance",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Azure Updates",
+        "link": "https://azure.microsoft.com/en-us/updates/feed/",
+        "description": "Official updates from Microsoft Azure, including new features and announcements.",
+        "categories": [
+            "Azure",
+            "cloud",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Azure DevOps Blog",
+        "link": "https://devblogs.microsoft.com/devops/feed/",
+        "description": "Official Azure DevOps blog from Microsoft, featuring best practices and tutorials.",
+        "categories": [
+            "Azure",
+            "DevOps",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Build Azure",
+        "link": "https://buildazure.com/feed/",
+        "description": "All about the Microsoft Cloud, including Azure and related topics.",
+        "categories": [
+            "Azure",
+            "cloud",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Thomas Maurer's Azure Blog",
+        "link": "https://www.thomasmaurer.ch/feed/",
+        "description": "Covers a range of Azure topics, from basic to advanced.",
+        "categories": [
+            "Azure",
+            "cloud",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "InfoWorld Microsoft",
+        "link": "https://www.infoworld.com/category/microsoft/index.rss",
+        "description": "InfoWorld's Microsoft section often covers Azure and other cloud-related topics.",
+        "categories": [
+            "Azure",
+            "cloud",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Serverless360 Blog",
+        "link": "https://www.serverless360.com/blog/feed",
+        "description": "Focuses on Azure Serverless offerings and related architecture and design best practices.",
+        "categories": [
+            "Azure",
+            "serverless",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Azure Tips and Tricks",
+        "link": "https://microsoft.github.io/AzureTipsAndTricks/rss.xml",
+        "description": "Collection of tips and tricks to help you get the most out of Azure.",
+        "categories": [
+            "Azure",
+            "tips",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Google Cloud Security Blog",
+        "link": "https://cloud.google.com/blog/topics/security/feed",
+        "description": "Focuses on security topics related to Google Cloud Platform.",
+        "categories": [
+            "GCP",
+            "security",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Google Cloud Tech - YouTube",
+        "link": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJS9pqu9BzkAMNTmzNMNhvg",
+        "description": "YouTube channel for Google Cloud developers, featuring tutorials and best practices.",
+        "categories": [
+            "GCP",
+            "video",
+            "rss-feed",
+            "YouTube"
+        ]
+    },
+    {
+        "title": "Google Cloud - Reddit",
+        "link": "https://www.reddit.com/r/googlecloud/.rss",
+        "description": "Reddit community for Google Cloud Platform, featuring discussions, news, and tips.",
+        "categories": [
+            "GCP",
+            "community",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "Google Cloud - GitHub",
+        "link": "https://github.com/GoogleCloudPlatform.atom",
+        "description": "GitHub repository for Google Cloud Platform, featuring code samples and projects.",
+        "categories": [
+            "GCP",
+            "code",
+            "rss-feed"
+        ]
+    },
+    {
+        "title": "TEST3",
+        "link": "TEST3",
+        "description": "TEST3",
+        "categories": [
+            "TEST"
+        ]
+    },
+    {
+        "title": "ZerodaySec",
+        "link": "https://github.com/zerodaysec",
+        "description": "",
+        "categories": [
+            "DevOps",
+            "GitHub"
+        ]
+    }
 ]
